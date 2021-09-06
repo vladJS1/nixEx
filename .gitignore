@@ -1,4 +1,4 @@
-/exclude
+exclude/
 *.properties
 
 # Compiled class file
