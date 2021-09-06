@@ -1,0 +1,32 @@
+com/nixsolution/Ex3.java
+ com.nixsolution.Ex3
+com/nixsolution/Ex1.java
+ com.nixsolution.Ex1
+com/nixsolution/Ex15.java
+ com.nixsolution.Ex15
+com/nixsolution/Ex4.java
+ com.nixsolution.Ex4
+com/nixsolution/Temperature.java
+ com.nixsolution.Temperature
+com/nixsolution/Ex5.java
+ com.nixsolution.Ex5
+com/nixsolution/Ex6.java
+ com.nixsolution.Ex6
+com/nixsolution/Ex7.java
+ com.nixsolution.Ex7
+com/nixsolution/Ex8.java
+ com.nixsolution.Ex8
+com/nixsolution/Ex9.java
+ com.nixsolution.Ex9
+com/nixsolution/Ex10.java
+ com.nixsolution.Ex10
+com/nixsolution/Ex11.java
+ com.nixsolution.Ex11
+com/nixsolution/Ex12.java
+ com.nixsolution.Ex12
+com/nixsolution/Ex13.java
+ com.nixsolution.Ex13
+com/nixsolution/Ex14.java
+ com.nixsolution.Ex14
+com/nixsolution/Ex2.java
+ com.nixsolution.Ex2

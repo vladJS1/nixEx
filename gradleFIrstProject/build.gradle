@@ -1,0 +1,58 @@
+plugins {
+    id 'java'
+    id 'application'
+    id "org.springframework.boot" version "2.2.2.RELEASE"
+}
+
+group 'hello'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+    mavenLocal()
+}
+
+dependencies {
+    implementation "joda-time:joda-time:2.2"
+
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+}
+
+
+
+jar {
+    baseName  'JarGradle'
+    version  '0.1.0'
+
+
+    manifest {
+        attributes 'Main-Class' : 'hello.HelloWorld'
+    }
+}
+
+test {
+    useJUnitPlatform()
+}
+
+
+tasks.register('hello') {
+    doLast {
+        println 'Hello world!'
+    }
+}
+
+tasks.register('intro') {
+    dependsOn tasks.hello
+    doLast {
+        println "I'm Gradle"
+    }
+}
+4.times { counter ->
+    tasks.register("task$counter"){
+        doLast{
+            println "I'am task number $counter"
+        }
+    }
+}
+tasks.named('task0'){dependsOn('task2','task3')}
